@@ -1,7 +1,7 @@
 let express = require('express')
 let app = express()
 
-app.use('', express.static('public'))
+app.use('', express.static('dist'))
 
 let server = app.listen(8000, function () {
 
